@@ -73,7 +73,6 @@ struct Segment
     Collections::String type;
     Collections::String name;
 
-    // By name otherwise ""
     Collections::Array<Segment> segments;
     // By id
     Collections::StringMap<Value> values;
